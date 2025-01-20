@@ -43,11 +43,7 @@
 <hr>
 
 <h2>📸 Preview</h2>
-<video width="600" controls>
-  <source src="https://cdn.upvi.org/anonymous/HVjSzYCFLa5Cdwn_1737374200.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+![Preview GIF](https://i.hizliresim.com/my6n22q.gif)
 <hr>
 
 <h2>📂 Project Structure</h2>
