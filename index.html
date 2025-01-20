@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umut Bayraktar | umutxyp Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-200">
+    <!-- Mobile Menu Overlay -->
+    <div id="menuOverlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden"></div>
+
+    <div class="max-w-3xl mx-auto px-4 py-8">
+        <!-- Header -->
+        <header class="flex items-center justify-between mb-16 relative z-50">
+            <h1 class="text-2xl font-medium">Umut Bayraktar</h1>
+            
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-sky-400 transition-colors">About</a>
+                <a href="#projects" class="hover:text-sky-400 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-sky-400 transition-colors">Contact</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="menuBtn" class="md:hidden text-gray-200 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+
+            <!-- Mobile Navigation -->
+            <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 h-full w-64 bg-[#0c0c0c] card z-50 p-6">
+                <button id="closeBtn" class="absolute top-6 right-6 text-gray-200">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+                <nav class="flex flex-col space-y-6 mt-16">
+                    <a href="#about" class="hover:text-sky-400 transition-colors">About</a>
+                    <a href="#projects" class="hover:text-sky-400 transition-colors">Projects</a>
+                    <a href="#contact" class="hover:text-sky-400 transition-colors">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+              <!-- Hero Section -->
+              <section class="mb-20">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div class="space-y-4 text-center md:text-left mb-8 md:mb-0">
+                        <h2 class="text-4xl md:text-5xl font-bold gradient-text">Hi there! 👋<br>I'm Umut</h2>
+                        <p class="text-gray-400 max-w-lg">
+                            19-year-old software developer and content creator based in London, UK. Originally from Antalya, Turkey, 
+                            specializing in technology, software, and cryptocurrency.
+                        </p>
+                        <div class="flex flex-wrap gap-4 pt-4 justify-center md:justify-start">
+                            <a href="https://instagram.com/umutxyp" target="_blank" class="flex items-center space-x-2 text-sky-400 hover:text-sky-300">
+                                <span>Instagram</span>
+                                <span class="text-xs bg-sky-400/10 px-2 py-1 rounded">35K+</span>
+                            </a>
+                            <a href="https://github.com/umutxyp" target="_blank" class="text-sky-400 hover:text-sky-300">GitHub
+                                <span class="text-xs bg-sky-400/10 px-2 py-1 rounded">150+</span>
+                            </a>
+                            <a href="https://t.me/umutland" target="_blank" class="text-sky-400 hover:text-sky-300">Telegram
+                                <span class="text-xs bg-sky-400/10 px-2 py-1 rounded">23K+</span>
+                            </a>
+                            <a href="https://youtube.com/@umutxyp" target="_blank" class="text-sky-400 hover:text-sky-300">YouTube
+                                <span class="text-xs bg-sky-400/10 px-2 py-1 rounded">11K+</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sphere-container">
+                        <canvas id="globe"></canvas>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Experience Section -->
+            <section class="mb-20">
+                <h3 class="text-2xl font-medium mb-8">Experience</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    <div class="card p-6 rounded-lg">
+                        <h4 class="text-sky-400 mb-2">Community Management</h4>
+                        <p class="text-sm text-gray-400">5+ years experience in building and managing communities with thousands of members.</p>
+                    </div>
+                    <div class="card p-6 rounded-lg">
+                        <h4 class="text-sky-400 mb-2">Software Development</h4>
+                        <p class="text-sm text-gray-400">Full-stack web developer with focus on Node.js and modern web technologies.</p>
+                    </div>
+                    <div class="card p-6 rounded-lg">
+                        <h4 class="text-sky-400 mb-2">Content Creation</h4>
+                        <p class="text-sm text-gray-400">Expert-level content creator with 55,000+ social media following.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Technologies Section -->
+            <section class="mb-20">
+                <h3 class="text-2xl font-medium mb-8">Technologies</h3>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">JavaScript</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=python" alt="Python" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Python</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=html" alt="HTML" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Html</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=css" alt="CSS" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Css</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">TypeScript</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Node.js</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">MongoDB</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Tailwind</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Bootstrap</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=electron" alt="Electron" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Electron</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=heroku" alt="Heroku" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Heroku</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Cloudflare</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=replit" alt="Replit" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Replit</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=discordjs" alt="Discord.js" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Discord.js</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=express" alt="Express" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Express</p>
+                    </div>
+                    <div class="card p-4 rounded-lg text-center">
+                        <img src="https://skillicons.dev/icons?i=materialui" alt="Materialui" class="mx-auto mb-2" />
+                        <p class="text-sm text-gray-400">Materialui</p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Featured Project -->
+            <section class="mb-20">
+                <h3 class="text-2xl font-medium mb-8">Featured Project</h3>
+                <div class="card p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-xl font-medium mb-2">Code Share</h4>
+                            <p class="text-gray-400 text-sm">A public platform for developers to share their software. This project helped me gain significant experience in planning, development, and project management.</p>
+                        </div>
+                        <div class="flex space-x-2 mt-4 md:mt-0">
+                            <span class="text-xs bg-sky-400/10 text-sky-400 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs bg-sky-400/10 text-sky-400 px-2 py-1 rounded">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="https://codeshare.me" target="_blank" class="text-sm text-sky-400 hover:text-sky-300">Visit Website →</a>
+                        <a href="https://github.com/codeshareme" target="_blank" class="text-sm text-sky-400 hover:text-sky-300">GitHub →</a>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- GitHub Projects -->
+            <section id="github" class="mb-20">
+                <div class="flex justify-between items-center mb-8">
+                    <h3 class="text-2xl font-medium">Top Projects</h3>
+                    <a href="https://github.com/umutxyp?tab=repositories" target="_blank" 
+                       class="text-sm text-sky-400 hover:text-sky-300">View All Projects →</a>
+                </div>
+                <div id="github-projects" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- GitHub projects will be loaded here -->
+                </div>
+            </section>
+    
+            <!-- Contact Section -->
+            <section id="contact" class="mb-16">
+                <h3 class="text-2xl font-medium mb-8">Let's Connect</h3>
+                <div class="card p-8 rounded-lg text-center">
+                    <p class="text-gray-400 mb-4">Interested in learning more about software, crypto, or community management? Let's connect!</p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="mailto:umutbayraktar55@hotmail.com" class="inline-block bg-sky-400 text-black px-6 py-2 rounded-lg hover:bg-sky-300 transition-colors">
+                            Send Email
+                        </a>
+                        <a href="https://t.me/umutxyp" target="_blank" class="inline-block bg-sky-400/10 text-sky-400 px-6 py-2 rounded-lg hover:bg-sky-400/20 transition-colors">
+                            Telegram
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <script src="script.js"></script>
+</body>
+</html>
