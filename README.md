@@ -1,53 +1,48 @@
-<!-- Framer Portfolio Website -->
+# Framer Portfolio Website
 
-<!-- 🚀 Responsive HTML & Tailwind CSS Portfolio Website -->
+🚀 **Responsive HTML & Tailwind CSS Portfolio Website**
 
-<h1>Framer Portfolio Website</h1>
+---
 
-<h2>🚀 Responsive HTML & Tailwind CSS Portfolio Website</h2>
+## 🌟 Overview
 
-<hr>
+Welcome to **Framer Portfolio Website**, a sleek and modern portfolio template built with responsiveness and scalability in mind. Designed for developers and creatives to showcase their work, skills, and experience in style.
 
-<h2>🌟 Overview</h2>
-<p>Welcome to <strong>Framer Portfolio Website</strong>, a sleek and modern portfolio template built with responsiveness and scalability in mind. Designed for developers and creatives to showcase their work, skills, and experience in style.</p>
+This project includes features like dynamic GitHub project fetching, technology showcases, and professional design layouts to impress visitors and potential clients.
 
-<p>This project includes features like dynamic GitHub project fetching, technology showcases, and professional design layouts to impress visitors and potential clients.</p>
+---
 
-<hr>
+## ✨ Features
 
-<h2>✨ Features</h2>
-<ul>
-  <li><strong>Responsive Design</strong>: Fully optimized for all screen sizes and devices.</li>
-  <li><strong>HTML + Tailwind CSS</strong>: Clean and reusable code for easy customization.</li>
-  <li><strong>Dynamic GitHub Integration</strong>: Automatically fetches your public GitHub repositories.</li>
-  <li><strong>Showcase Sections</strong>:
-    <ul>
-      <li>Projects</li>
-      <li>Skills & Technologies</li>
-      <li>Professional Experience</li>
-      <li>Contact Information</li>
-    </ul>
-  </li>
-  <li><strong>Modern UI/UX</strong>: Inspired by Framer with animations and clean layouts.</li>
-</ul>
+- **Responsive Design**: Fully optimized for all screen sizes and devices.
+- **HTML + Tailwind CSS**: Clean and reusable code for easy customization.
+- **Dynamic GitHub Integration**: Automatically fetches your public GitHub repositories.
+- **Showcase Sections**:
+  - Projects
+  - Skills & Technologies
+  - Professional Experience
+  - Contact Information
+- **Modern UI/UX**: Inspired by Framer with animations and clean layouts.
 
-<hr>
+---
 
-<h2>🛠️ Tech Stack</h2>
-<ul>
-  <li><strong>Languages</strong>: HTML, CSS (TailwindCSS)</li>
-  <li><strong>Frameworks/Libraries</strong>: None (Pure HTML/CSS for simplicity)</li>
-  <li><strong>Tools</strong>: GitHub API for project fetching</li>
-</ul>
+## 🛠️ Tech Stack
 
-<hr>
+- **Languages**: HTML, CSS (TailwindCSS)
+- **Frameworks/Libraries**: None (Pure HTML/CSS for simplicity)
+- **Tools**: GitHub API for project fetching
 
-<h2>📸 Preview</h2>
-<img src="https://i.hizliresim.com/my6n22q.gif" alt="Framer Portfolio Preview" width="800" />
-<hr>
+---
 
-<h2>📂 Project Structure</h2>
-<pre>
+## 📸 Preview
+
+![Framer Portfolio Preview](https://i.hizliresim.com/my6n22q.gif)
+
+---
+
+## 📂 Project Structure
+
+```plaintext
 root/
 ├── index.html           # Main HTML file
 ├── assets/              # Images, icons, and other assets
@@ -57,46 +52,49 @@ root/
 │   └── script.js        # Dynamic digital canvas world and menu fetching script
 │   └── github-fetch.js  # Dynamic GitHub fetching script
 └── README.md            # Documentation
-</pre>
+```
 
-<hr>
+---
 
-<h2>🔧 Setup Instructions</h2>
-<ol>
-  <li>Clone the repository:
-    <pre><code>git clone https://github.com/umutxyp/Framer-Portfolio-Website.git</code></pre>
-  </li>
-  <li>Navigate to the project directory:
-    <pre><code>cd Framer-Portfolio-Website</code></pre>
-  </li>
-  <li>Open <code>index.html</code> in your favorite browser to preview the site.</li>
-</ol>
+## 🔧 Setup Instructions
 
-<hr>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/umutxyp/Framer-Portfolio-Website.git
+   ```
 
-<h2>🌍 Deployment</h2>
-<ol>
-  <li>Push your repository to GitHub.</li>
-  <li>Go to your repository settings.</li>
-  <li>Enable GitHub Pages in the "Pages" section.</li>
-</ol>
+2. Navigate to the project directory:
+   ```bash
+   cd Framer-Portfolio-Website
+   ```
 
-<hr>
+3. Open `index.html` in your favorite browser to preview the site.
 
-<h2>🤝 Contribution</h2>
-<p>Contributions are welcome! If you have ideas for improvements or new features, feel free to submit a pull request or open an issue.</p>
+---
 
-<hr>
+## 🌍 Deployment
 
-<h2>📝 License</h2>
-<p>This project is open-source and available under the <a href="LICENSE">MIT License</a>.</p>
+1. Push your repository to GitHub.
+2. Go to your repository settings.
+3. Enable GitHub Pages in the "Pages" section.
 
-<hr>
+---
 
-<h2>🌟 Connect</h2>
-<ul>
-  <li><strong>GitHub</strong>: <a href="https://github.com/umutxyp">umutxyp</a></li>
-  <li><strong>Telegram</strong>: <a href="https://t.me/umutxyp">Contact Me</a></li>
-</ul>
+## 🤝 Contribution
 
-<p>Feel free to reach out if you're interested in web development, software, or community management!</p>
+Contributions are welcome! If you have ideas for improvements or new features, feel free to submit a pull request or open an issue.
+
+---
+
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🌟 Connect
+
+- **GitHub**: [umutxyp](https://github.com/umutxyp)
+- **Telegram**: [Contact Me](https://t.me/umutxyp)
+
+Feel free to reach out if you're interested in web development, software, or community management!
