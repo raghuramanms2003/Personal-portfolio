@@ -36,10 +36,7 @@ This project includes features like dynamic GitHub project fetching, technology 
 
 ## 📸 Preview
 
-<video controls width="600">
-  <source src="https://cdn.upvi.org/anonymous/HVjSzYCFLa5Cdwn_1737374200.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Video Preview](https://via.placeholder.com/600x300.png?text=Click+to+watch+video)](https://cdn.upvi.org/anonymous/HVjSzYCFLa5Cdwn_1737374200.mp4)
 
 ---
 
