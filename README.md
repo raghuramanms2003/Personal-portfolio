@@ -36,7 +36,10 @@ This project includes features like dynamic GitHub project fetching, technology 
 
 ## 📸 Preview
 
-<video playsinline="playsinline" id="svp_holder_html5_api" class="vjs-tech" tabindex="-1" poster="" src="blob:https://play.webvideocore.net/ef827eb4-71df-452e-b9de-857954c24e51"></video>
+<video controls width="600">
+  <source src="https://cdn.upvi.org/anonymous/HVjSzYCFLa5Cdwn_1737374200.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
