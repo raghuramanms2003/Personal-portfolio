@@ -51,6 +51,7 @@ root/
 ├── css/
 │   └── styles.css       # Tailwind CSS styles
 ├── js/
+│   └── script.js  # Dynamic digital canvas world and menu fetching script
 │   └── github-fetch.js  # Dynamic GitHub fetching script
 └── README.md            # Documentation
 ```
