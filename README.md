@@ -36,9 +36,7 @@ This project includes features like dynamic GitHub project fetching, technology 
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./assets/portfolio-preview.png)
-
-Live Demo: [Your Portfolio Link](https://your-portfolio-link.com)
+<video playsinline="playsinline" id="svp_holder_html5_api" class="vjs-tech" tabindex="-1" poster="" src="blob:https://play.webvideocore.net/ef827eb4-71df-452e-b9de-857954c24e51"></video>
 
 ---
 
