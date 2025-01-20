@@ -36,7 +36,7 @@ This project includes features like dynamic GitHub project fetching, technology 
 
 ## 📸 Preview
 
-![Framer Portfolio Preview](https://i.hizliresim.com/my6n22q.gif)
+![Framer Portfolio Preview](https://github.com/umutxyp/Framer-Potfolio-Website/raw/main/assets/videos/demo.gif)
 
 ---
 
