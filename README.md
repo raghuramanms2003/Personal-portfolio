@@ -43,7 +43,7 @@
 <hr>
 
 <h2>📸 Preview</h2>
-![Preview GIF](https://i.hizliresim.com/my6n22q.gif)
+<img src="https://i.hizliresim.com/my6n22q.gif" alt="Framer Portfolio Preview" width="800" />
 <hr>
 
 <h2>📂 Project Structure</h2>
